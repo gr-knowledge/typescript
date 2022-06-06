@@ -1,7 +1,5 @@
 # Classe
 
-A ClasseA depende da ClasseB
-
 ```TS
 class NomeClasse
 {
@@ -24,8 +22,6 @@ public static function metodo3(): void
 *Métodos estáticos podem ser invocados sem que exista um objeto da classe*
 
 # Classe Abstrata
-
-A ClasseA depende da ClasseB
 
 ```TS
 abstract class NomeClasse
@@ -54,8 +50,6 @@ public function metodo3(): void
 
 # Interfaces
 
-A ClasseA depende da ClasseB
-
 ```TS
 interface NomeInterface
 {
@@ -74,8 +68,6 @@ public function metodo3(): void;
 ## Associação
 ![image](https://user-images.githubusercontent.com/10155481/172227803-795441a2-e0be-4cef-9511-66d7587ca5f4.png)
 
-A ClasseA depende da ClasseB
-
 ```TS
 class ClasseA
 {
@@ -91,8 +83,6 @@ variavel = new classeB();
 
 ## Generalização
 ![image](https://user-images.githubusercontent.com/10155481/172227860-9b4efbd3-d6b3-4285-bdbe-2c1df5fcf893.png)
-
-A ClasseA depende da ClasseB
 
 ```TS
 class ClasseA
@@ -111,8 +101,6 @@ variavel = new classeB();
 ## Realização
 ![image](https://user-images.githubusercontent.com/10155481/172227885-65012b4c-acb4-4b2f-a8c2-fd8c36df9d50.png)
 
-A ClasseA depende da ClasseB
-
 ```TS
 class ClasseA
 {
@@ -128,8 +116,6 @@ variavel = new classeB();
 
 ## Agregação
 ![image](https://user-images.githubusercontent.com/10155481/172227936-8e532a3b-918b-4f38-b2db-fef0f677928f.png)
-
-A ClasseA depende da ClasseB
 
 ```TS
 class ClasseA
@@ -147,8 +133,6 @@ variavel = new classeB();
 
 ## Composição
 ![image](https://user-images.githubusercontent.com/10155481/172227969-9c898b2e-ae4f-4e47-8cc7-13d8b4848873.png)
-
-A ClasseA depende da ClasseB
 
 ```TS
 class ClasseA
