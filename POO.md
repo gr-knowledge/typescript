@@ -144,5 +144,5 @@ const conexao = new MySqlConnection();
 const myUser = new Usuario(conexao);
 ```
 
-*O objeto da ClasseB é utilizado/faz parte da ClasseA*  
-*Quando a ClasseA deixar de existir a ClasseB também deixará de existir*
+*O objeto MySqlConnection é utilizado/faz parte da Usuario*  
+*Quando o Usuario deixar de existir MySqlConnection também deixará de existir*
