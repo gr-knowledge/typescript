@@ -120,15 +120,29 @@ variavel = new classeB();
 ![image](https://user-images.githubusercontent.com/10155481/172227969-9c898b2e-ae4f-4e47-8cc7-13d8b4848873.png)
 
 ```TS
-class ClasseA
-{
-//Início do corpo da classe
-...
-variavel = new classeB();
-...
-//Fim do corpo da classe
+interface Connection {
+
 }
+
+class MySqlConnection implements Connection {
+
+}
+
+class Usuario {
+    protected connection: Connection | undefined;
+
+    constructor(connection: Connection | undefined) {
+        this.connection = connection;
+    }
+
+	public findById($id: number) {
+        // this.connection.query('...');
+	}
+}
+
+const conexao = new MySqlConnection();
+const myUser = new Usuario(conexao);
 ```
 
-*O objeto da ClasseB é utilizado/faz parte da ClasseA*
+*O objeto da ClasseB é utilizado/faz parte da ClasseA*  
 *Quando a ClasseA deixar de existir a ClasseB também deixará de existir*
