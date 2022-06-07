@@ -85,20 +85,15 @@ class ClasseA extends ClasseB {
 }
 ```
 
-*A ClasseA herda a ClasseB*
+*A ClasseA herda a ClasseB*  
 *A ClasseA é uma subclasse da ClasseB*
 
 ## Realização
 ![image](https://user-images.githubusercontent.com/10155481/172227885-65012b4c-acb4-4b2f-a8c2-fd8c36df9d50.png)
 
 ```TS
-class ClasseA
-{
-//Início do corpo da classe
-...
-variavel = new classeB();
-...
-//Fim do corpo da classe
+class ClasseA implements Interface {
+
 }
 ```
 
