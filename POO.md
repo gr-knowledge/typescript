@@ -69,13 +69,8 @@ public function metodo3(): void;
 ![image](https://user-images.githubusercontent.com/10155481/172227803-795441a2-e0be-4cef-9511-66d7587ca5f4.png)
 
 ```TS
-class ClasseA
-{
-//Início do corpo da classe
-...
-variavel = new classeB();
-...
-//Fim do corpo da classe
+class ClasseA {
+  variavel = new classeB();
 }
 ```
 
@@ -85,13 +80,8 @@ variavel = new classeB();
 ![image](https://user-images.githubusercontent.com/10155481/172227860-9b4efbd3-d6b3-4285-bdbe-2c1df5fcf893.png)
 
 ```TS
-class ClasseA
-{
-//Início do corpo da classe
-...
-variavel = new classeB();
-...
-//Fim do corpo da classe
+class ClasseA extends ClasseB {
+  
 }
 ```
 
